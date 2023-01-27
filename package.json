@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "jest --watchAll --verbose --coverage",
-    "e2e": "cypress open"
+    "build-ui": "vite build",
+    "preview-ui": "vite preview",
+    "test-backend-watch": "jest --watchAll --verbose --coverage",
+    "test-backend": "jest --verbose --coverage",
+    "test-ui-watch": "cypress open"
   },
   "devDependencies": {
     "@types/jest": "^29.2.6",

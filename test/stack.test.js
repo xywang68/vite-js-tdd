@@ -1,4 +1,4 @@
-const Stack = require('Stack.js');
+const Stack = require('backend/Stack.js');
 
 describe('My Stack', () => {
     // in module global var and func
