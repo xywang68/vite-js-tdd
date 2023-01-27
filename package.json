@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build-ui": "vite build",
-    "preview-ui": "vite preview",
-    "test-backend-watch": "jest --watchAll --verbose --coverage",
-    "test-backend": "jest --verbose --coverage",
-    "test-ui-watch": "cypress open"
+    "ui-dev": "vite",
+    "ui-build": "vite build",
+    "ui-preview": "vite preview",
+    "backend-test-watch": "jest --watchAll --verbose --coverage",
+    "backend-test": "jest --verbose --coverage",
+    "ui-test": "cypress open"
   },
   "devDependencies": {
     "@types/jest": "^29.2.6",
