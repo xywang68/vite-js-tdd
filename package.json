@@ -9,7 +9,7 @@
     "ui-preview": "vite preview",
     "backend-test-watch": "jest --watchAll --verbose --coverage",
     "backend-test": "jest --verbose --coverage",
-    "ui-test": "cypress open"
+    "ui-test": "cypress --config cypress.config.js open"
   },
   "devDependencies": {
     "@types/jest": "^29.2.6",
