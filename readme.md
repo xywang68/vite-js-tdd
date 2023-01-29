@@ -10,4 +10,7 @@
 
 #### Counter App
 
-    * npm run ui-test
+    needs two terminals
+
+    * terminal 1: npm run ui-dev
+    * terminal 2: npm run ui-test
