@@ -7,14 +7,14 @@ describe('app page', () => {
   })
 
   it('says hello', () => {
-    cy.contains('body', 'Hello')
+    cy.contains('body', 'Hello');
   })
 
   it('displays vite logo', () => {
     cy.get('[alt="Vite logo"]')
       .should('be.visible')
       .and(($img) => {
-        expect($img[0].naturalWidth).to.be.greaterThan(0)
+        expect($img[0].naturalWidth).to.be.greaterThan(0);
       });
   })
 
@@ -22,7 +22,7 @@ describe('app page', () => {
     cy.get('[alt="JavaScript logo"]')
       .should('be.visible')
       .and(($img) => {
-        expect($img[0].naturalWidth).to.be.greaterThan(0)
+        expect($img[0].naturalWidth).to.be.greaterThan(0);
       });
   })
 
@@ -34,11 +34,11 @@ describe('app page', () => {
   })
 
   it('count is 0', () => {
-    cy.contains('button', 'is 0')
+    cy.contains('button', 'is 0');
   })
 
   it('has instruction', () => {
-    cy.contains('body', 'to learn more')
+    cy.contains('body', 'to learn more');
   })
 
 })

@@ -4,10 +4,10 @@
 
 * Counter -- use tdd in cypress to build a web counter
 
-#### Stack
+#### Stack JS
 
-    * npm run test
+    * npm run backend-test
 
-#### Counter
+#### Counter App
 
-    * tbd
+    * npm run ui-test
