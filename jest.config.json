@@ -2,5 +2,14 @@
 	"roots": ["src/jest-test"],
 	"moduleFileExtensions": ["js", "jsx"],
     "moduleDirectories": ["node_modules", "src"],
-	"verbose": true
+	"verbose": true,
+	"collectCoverage": true,
+    "collectCoverageFrom": ["./src/**"],
+    "coverageThreshold": {
+      "global": {
+        "lines": 100,
+		"statements": 100,
+		"branches": 100
+      }
+    }
 }
