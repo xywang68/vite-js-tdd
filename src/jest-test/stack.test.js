@@ -40,5 +40,5 @@ describe('My Stack', () => {
         }
         expect(stack.top).toBe(-1);
         expect(stack.peek).toBe(null);
-    })
+    });
 })

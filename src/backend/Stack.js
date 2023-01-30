@@ -17,10 +17,6 @@ class Stack {
         this.top -= 1;
         return pop_item;;
     }
-    get size() {
-        if (this.top > -1) return this.top + 1;
-        return -1;
-    }
 }
 
 module.exports = Stack;
