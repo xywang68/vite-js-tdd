@@ -7,9 +7,9 @@
     "ui-dev": "vite",
     "ui-build": "vite build",
     "ui-preview": "vite preview",
-    "backend-test-watch": "jest --watchAll --coverage",
-    "backend-test": "jest --coverage",
-    "ui-test": "cypress run --browser chrome"
+    "jest-test-watch": "jest --watchAll --coverage",
+    "jest-test": "jest --coverage",
+    "cypress-test": "cypress run --browser chrome"
   },
   "devDependencies": {
     "@types/jest": "^29.2.6",
