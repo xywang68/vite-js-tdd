@@ -4,13 +4,13 @@
 
 * Counter -- use tdd in cypress to build a web counter
 
-#### Stack JS
+#### Test Stack JS using Jest
 
-    * npm run backend-test
+    * npm run jest-test
 
-#### Counter App
+#### Test Counter App using Cypress
 
     needs two terminals
 
     * terminal 1: npm run ui-dev
-    * terminal 2: npm run ui-test
+    * terminal 2: npm run cypress-test
