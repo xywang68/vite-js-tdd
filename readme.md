@@ -17,7 +17,7 @@ This is a TDD example project in javascript.
     * terminal 1: npm run ui-dev
     * terminal 2: npm run cypress-test
 
-#### Github Actions
+#### Automated Github Actions
 
 There are two github action yaml files in .github/workflows/ folder. They ensure the above tests are passsing. PR will be blocked on any failure.
 
