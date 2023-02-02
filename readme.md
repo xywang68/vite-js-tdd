@@ -10,6 +10,19 @@ This is a TDD example project in javascript.
 
     * npm run jest-test
 
+#### Code Coverage
+
+    code coverage is included in jest-test with the follow criteria:
+
+        "coverageThreshold": {
+            "global": {
+                "statements": 100,
+                "branches": 100,
+                "functions": 100,
+                "lines": 100
+            }
+        }
+
 #### Test Counter App using Cypress
 
     needs two terminals
